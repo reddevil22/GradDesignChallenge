@@ -13,5 +13,12 @@ body {
     width: 320px;
     height: 370px;
     margin: 0 auto;
-    display: flex;
+    display: table;
+}
+
+.linda .linda-address {
+    padding: 50px 0 0 0;
+    font-size: 14pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #545454;
 }
