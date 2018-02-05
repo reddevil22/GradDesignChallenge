@@ -1,24 +1,19 @@
-/*
-Your styles should go in here.
-Use any styles of your choosing, the solution should support the latest browsers -1.
-*/
-
 body {
-    background-color: #63a6ff;
-    text-align: center;
+  background-color: #63a6ff;
+  text-align: center;
 }
 
 .center-box {
-    background-color: white;
-    width: 320px;
-    height: 370px;
-    margin: 0 auto;
-    display: table;
+  background-color: white;
+  width: 320px;
+  height: 370px;
+  margin: 0 auto;
+  display: table;
 }
 
 .linda .linda-address {
-    padding: 50px 0 0 0;
-    font-size: 14pt;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #545454;
+  padding: 50px 0 0 0;
+  font-size: 14pt;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #545454;
 }
