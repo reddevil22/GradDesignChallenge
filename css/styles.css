@@ -5,7 +5,7 @@ body {
 
 .center-box {
   background-color: white;
-  width: 320px;
+  width: 350px;
   height: 400px;
   margin: 0 auto;
   display: table;
@@ -13,45 +13,57 @@ body {
 }
 
 section.linda {
-    padding: 40px 0 0 0;
-    font-size: 14pt;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #545454;
+  padding: 40px 0 0 0;
+  font-size: 14pt;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #545454;
 }
 
 section.linda-address {
-    color: #7e7e7e80;
+  color: #7e7e7e80;
 }
 
 section.roger {
-    padding: 50px 0 0 0;
-    font-size: 14pt;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #545454;
+  padding: 50px 0 0 0;
+  font-size: 14pt;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #545454;
 }
 
 section.roger-address {
-    color: #7e7e7e80;
+  color: #7e7e7e80;
 }
 
 section.dean {
-    padding: 60px 0 0 0;
-    font-size: 14pt;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #545454;
+  padding: 60px 0 0 0;
+  font-size: 14pt;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #545454;
 }
 
 section.dean-address {
-    color: #7e7e7e80;
+  color: #7e7e7e80;
 }
 
 section.beth {
-    padding: 60px 0 0 0;
-    font-size: 14pt;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #545454;
+  padding: 40px 0 0 0;
+  font-size: 14pt;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #545454;
 }
 
 section.beth-address {
-    color: #7e7e7e80;
+  color: #7e7e7e80;
+}
+
+img {
+  border-radius: 50%;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  width: 300px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
