@@ -3,3 +3,6 @@ Your styles should go in here.
 Use any styles of your choosing, the solution should support the latest browsers -1.
 */
 
+body {
+    background-color: aqua;
+}
