@@ -24,25 +24,39 @@ https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/46.jpg
     <title>Design Grad Challenge</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 
 <body>
-    <div class="card">
-        <div class="center-box">
-            <!-- <div class="linda-img"><img src="img/93.jpg" /></div> -->
-            <section class="linda"><b>Linda Hart</b></section>
-            <section class="linda-address">6765 Shady Ln Dr</section>
-            <hr>
-            <section class="roger"><b>Roger Medina</b></section>
-            <section class="roger-address">2420 Paddock Way</section>
-            <hr>
-            <section class="dean"><b>Dean Sullivan</b></section>
-            <section class="dean-address">6727 Airplane Ave</section>
-            <hr>
-            <section class="beth"><b>Elizabeth Austin</b></section>
-            <section class="beth-address">6685 Blossom Hill Rd</section>
+    <div class="card" id="sectionToHide">
+        <div class="linda">
+            <img src="img/93.jpg">
+            <h2>Linda Hart</h2>
+            <h3>6765 Shady Ln Dr</h3>
+        </div>
+        <hr>
+        <div class="roger">
+            <img src="img/46.jpg">
+            <h2>Roger Madina</h2>
+            <h3>2420 Paddock Way</h3>
+        </div>
+        <hr>
+        <div class="dean">
+            <img src="img/59.jpg">
+            <h2>Dean Sullivan</h2>
+            <h3>6727 Airplane Ave</h3>
+        </div>
+        <hr>
+        <div class="beth">
+            <img src="img/78.jpg">
+            <h2>Elizabeth Austin</h2>
+            <h3>6685 Blossom Hill Rd</h3>
         </div>
     </div>
+
+    <button id="toggle" onclick="toggle('sectionToHide');">Hide Content</button>
 </body>
+
+<script src="js/scripts.js" type="text/javascript"></script>
 
 </html>

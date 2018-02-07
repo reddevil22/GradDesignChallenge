@@ -5,9 +5,22 @@ Some hints are given below but you can use any structure or approach of your cho
 
 */
 
-var button = document.querySelector('.targetClassName');
+function toggle(id) {
 
-button.addEventListener('click', function(e) {
-
-  
-});
+    let sectiontohide = document.getElementById('sectionToHide');
+    
+    if (sectiontohide.style.display == 'none') {
+        sectiontohide.style.display = 'block';
+    }
+    else {
+        sectiontohide.style.display = 'none';
+    }
+    
+    let toggle = document.getElementById('toggle');
+    if (toggle.innerHTML == 'Hide content') {
+       toggle.innerHTML = 'Show content';
+    }
+   else {
+       toggle.innerHTML = 'Hide content';
+    }
+}
